@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useCache } from "@/services/cacheService";
+import { useCache } from "@/hooks/useCache";
 import { fetchPosts, Post } from "@/services/apiService";
 
 export default function PostsPage() {
